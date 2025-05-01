@@ -7,7 +7,6 @@ import FashionRecommender from '../features/FashionRecommender';
 import StylePredictor from '../features/StylePredictor';
 import FeatureExtractor from '../features/FeatureExtractor';
 import BackgroundRemover from '../features/BackgroundRemover';
-import SimilarityFinder from '../features/SimilarityFinder';
 import WeatherSuggestion from '../features/WeatherSuggestion';
 
 const Dashboard: React.FC = () => {
