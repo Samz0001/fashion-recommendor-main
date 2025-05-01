@@ -33,11 +33,7 @@ const sidebarItems = [
     icon: <Layers size={20} />,
     label: 'Background Remover'
   },
-  {
-    path: '/dashboard/similarityfinder',
-    icon: <Images size={20} />,
-    label: 'Similarity Finder'
-  },
+  
   {
     path: '/dashboard/weathersuggestion',
     icon: <CloudSun size={20} />,

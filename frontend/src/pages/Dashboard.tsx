@@ -42,7 +42,6 @@ const Dashboard: React.FC = () => {
               <Route path="styleprediction" element={<StylePredictor />} />
               <Route path="featureextractor" element={<FeatureExtractor />} />
               <Route path="backgroundremover" element={<BackgroundRemover />} />
-              <Route path="similarityfinder" element={<SimilarityFinder />} />
               <Route path="weathersuggestion" element={<WeatherSuggestion />} />
               <Route path="*" element={<Navigate to="/dashboard/recommender" replace />} />
             </Routes>
