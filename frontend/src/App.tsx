@@ -6,6 +6,7 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import AuthPage from './pages/AuthPage';
 import Dashboard from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
+import StartPage from './StartPage';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
           <div className="min-h-screen transition-colors duration-300 dark:bg-gray-900 bg-gray-50">
             <Toaster position="top-right" />
             <Routes>
+              <Route path="/" element={<StartPage />} />
               <Route path="/auth" element={<AuthPage />} />
+
               <Route
                 path="/dashboard/*"
                 element={

@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/dashboard" className="flex items-center">
+            <Link to="/auth" className="flex items-center">
               <Scissors className="h-6 w-6 text-primary-500" />
               <span className="ml-2 font-bold text-gray-900 dark:text-white text-lg">Smart AI Fashion</span>
             </Link>
